@@ -1,7 +1,20 @@
 @font-face {
-    font-family: 'Neo Sans Pro';
-    url('fonts/NeoSansPro/neoSansPro.ttf') format('truetype');
-    font-style: normal;
-    font-weight: normal;
+    font-family: 'Neo Sans Pro Medium';
+    src: url('fonts/NeoSansPro/NeoSansPro-Medium.ttf') format('truetype-aat'),
+    url('fonts/NeoSansPro/NeoSansPro-Medium.ttf') format('truetype-aat');
 }
-/*# sourceMappingURL=data:application/json;charset=utf8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImZvbnRzLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQSxXQUFXLDBCQUEwQiwrQ0FBK0MsMk1BQTJNLGtCQUFrQixlQUFlLENBQUMiLCJmaWxlIjoiZm9udHMuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiQGZvbnQtZmFjZXtmb250LWZhbWlseTpSb2JvdG9SZWd1bGFyO3NyYzp1cmwoZm9udHMvUm9ib3RvUmVndWxhci9Sb2JvdG9SZWd1bGFyLmVvdCk7c3JjOnVybChmb250cy9Sb2JvdG9SZWd1bGFyL1JvYm90b1JlZ3VsYXIuZW90PyNpZWZpeCkgZm9ybWF0KFwiZW1iZWRkZWQtb3BlbnR5cGVcIiksdXJsKGZvbnRzL1JvYm90b1JlZ3VsYXIvUm9ib3RvUmVndWxhci53b2ZmKSBmb3JtYXQoXCJ3b2ZmXCIpLHVybChmb250cy9Sb2JvdG9SZWd1bGFyL1JvYm90b1JlZ3VsYXIudHRmKSBmb3JtYXQoXCJ0cnVldHlwZVwiKTtmb250LXN0eWxlOm5vcm1hbDtmb250LXdlaWdodDo0MDB9Il19 */
+@font-face {
+    font-family: 'Neo Sans Pro';
+    src: url('fonts/NeoSansPro/NeoSansPro-Regular.ttf') format('truetype-aat'),
+    url('fonts/NeoSansPro/NeoSansPro-Regular.ttf') format('truetype-aat');
+}
+@font-face {
+    font-family: 'Francker CYR Medium';
+    src: url('fonts/FranckerCYR/FranckerCYR-Medium.otf') format('opentype'),
+    url('fonts/FranckerCYR/FranckerCYR-Medium.otf') format('opentype');
+}
+@font-face {
+    font-family: 'Francker CYR';
+    src: url('fonts/FranckerCYR/FranckerCYR-Regular.otf') format('opentype'),
+    url('fonts/FranckerCYR/FranckerCYR-Regular.otf') format('opentype');
+}

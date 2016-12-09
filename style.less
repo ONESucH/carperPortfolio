@@ -2,12 +2,16 @@
   margin: 0;
   padding: 0;
   outline: none;
-  font-family: 'Neo Sans Pro';
-  font-weight: normal;
 }
 
+span {
+  font-family: 'Francker CYR Medium';
+}
+p,h5,h6,li {
+  font-family: 'Neo Sans Pro';
+}
 h1, h2, h3, h4 {
-  font-style: normal;
+  font-family: 'Francker CYR';
 }
 
 .header {
@@ -15,14 +19,14 @@ h1, h2, h3, h4 {
   background: url("img/background/background-1.png") center no-repeat;
   background-size: cover;
   box-sizing: border-box;
+  text-align: center;
   padding: 0 18.4%;
-  max-width: 1400px;
 }
 
 .top-menu {
   position: inherit;
   display: block;
-  padding-top: 12px;
+  padding-top: 13px;
   clear: both;
   text-align: right;
   img {
@@ -35,7 +39,7 @@ h1, h2, h3, h4 {
   button {
     display: inline-block;
     vertical-align: middle;
-    margin-top: 19px;
+    margin-top: 17px;
     width: 153px;
     height: 39px;
     cursor: pointer;
@@ -63,36 +67,37 @@ h1, h2, h3, h4 {
   }
   span {
     color: #3a6786;
+    font-size: 13px;
   }
   i {
     color: #3a6786;
-    margin-right: 5px;
+    font-size: 16px;
+    margin-right: 7px;
     vertical-align: middle;
   }
   p {
     color: #fff;
     font-size: 17px;
-    line-height: 19px;
+    line-height: 18px;
   }
 }
 
 .center-block {
   display: block;
   text-align: center;
-  padding: 132px 0 138px;
+  padding: 130px 0 138px;
   h1 {
     color: #3582b9;
-    font-size: 34px;
-    margin-bottom: 13px;
+    font-size: 32px;
+    margin-bottom: 12px;
     line-height: 38px;
-    font-weight: 900;
-    padding: 2px 0 0 16px;
+    font-weight: 100;
+    padding: 6px 0 0 18px;
   }
   span {
     color: #353061;
     font-weight: 900;
-    font-family: sans-serif;
-    font-size: 30px;
+    font-size: 33px;
   }
   button {
     background: #353061;
@@ -113,36 +118,37 @@ h1, h2, h3, h4 {
 .content {
   position: relative;
   box-sizing: border-box;
-  max-width: 1400px;
 }
 
 .one-section {
   position: inherit;
   background: #fcfdfb;
   text-align: center;
-  padding: 35px 16% 28px;
   h2 {
     color: #353061;
-    font-size: 30px;
-    line-height: 32px;
+    font-size: 27px;
+    line-height: 31px;
     padding-left: 15px;
+    padding-top: 4px;
+    font-weight: 100;
   }
   span {
+    font-size: 25px;
     color: #3582b9;
   }
   p {
-    margin-top: 11px;
+    margin-top: 10px;
     font-size: 16px;
-    padding-left: 15px;
+    padding-left: 14px;
     color: #3582b9;
   }
 }
 
 .example-carpet {
   display: inline-block;
-  width: 179px;
+  width: 18.3%;
+  margin: 41px 10px 40px;
   vertical-align: top;
-  margin: 1% 10px;
   text-align: center;
   img {
     display: block;
@@ -155,7 +161,7 @@ h1, h2, h3, h4 {
     font-size: 13px;
     text-align: center;
     padding: 11px 3px 3px;
-    margin-bottom: 23px;
+    margin-bottom: 24px;
   }
   button {
     background: #353061;
@@ -172,24 +178,25 @@ h1, h2, h3, h4 {
 }
 
 #green {
+  font-size: 12px;
   color: #61aa4d;
 }
-
 #blue {
+  font-size: 12px;
   color: #00a0e3;
 }
-
 #purple {
+  font-size: 12px;
   color: purple;
 }
-
 #orange {
+  font-size: 12px;
   color: orange;
 }
 
 .carpet-choice {
-  display: block;
-  padding: 13px 0 13px 15px;
+  display: inline-block;
+  padding: 16px 11% 16px 12%;
   button {
     background: #353061;
     width: 88px;
@@ -205,20 +212,23 @@ h1, h2, h3, h4 {
 }
 
 .carpet-choice-two {
-  display: block;
-  padding: 51px 0 13px 15px;
+  display: inline-block;
+  padding: 16px 11% 16px 12%;
   h2 {
-    padding: 0;
-    font-size: 29px;
+    padding: 0 0 0 3px;
+    line-height: 32px;
+    font-weight: 100;
+    font-size: 27px;
     margin-bottom: 18px;
   }
   ul {
-    display: block;
+    display: inline-block;
     counter-reset: heading;
+    margin: 0 8%;
   }
   li {
     display: inline-block;
-    width: 179px;
+    width: 22%;
     vertical-align: top;
     margin: 1% 10px;
     text-align: center;
@@ -245,17 +255,16 @@ h1, h2, h3, h4 {
   }
   p {
     color: #212121;
-    font-size: 13px;
+    font-size: 12px;
     text-align: center;
-    margin: 0 0 -7px 0;
-    padding: 9px 2px 0;
+    margin: 0 0 -7px;
+    padding: 10px 2px 2px;
   }
   button {
     width: 380px;
     border: none;
     height: 39px;
-    margin-left: 3px;
-    margin-top: 16px;
+    margin: 31px 0 25px 3px;
     border-radius: 4px;
     cursor: pointer;
     background: #f1a501;
@@ -270,13 +279,14 @@ h1, h2, h3, h4 {
 .two-section {
   position: inherit;
   text-align: center;
-  padding: 32px 16% 40px;
+  padding: 34px 16% 40px;
   background: url("img/background/background-2.png") center no-repeat;
   background-size: cover;
   h2 {
-    font-size: 29px;
-    line-height: 33px;
+    font-size: 26px;
+    line-height: 32px;
     padding-left: 14px;
+    font-weight: 100;
     margin-bottom: 22px;
     color: #fff;
   }
@@ -298,14 +308,17 @@ h1, h2, h3, h4 {
 
 .application-counter {
   display: inline-block;
-  padding: 0 220px 0 245px;
+  padding-left: 26px;
+  width: 392px;
   p {
     display: inline-block;
+    padding-left: 0;
     color: #fff;
-    width: 192px;
+    width: 195px;
+    line-height: 17px;
     text-align: left;
     vertical-align: top;
-    font-size: 13px;
+    font-size: 12px;
   }
   label {
     display: block;
@@ -337,35 +350,42 @@ h1, h2, h3, h4 {
   margin-bottom: 4px;
   h5 {
     color: #f1a501;
-    font-size: 13px;
+    font-size: 12px;
+    padding-top: 1px;
+    padding-right: 4px;
   }
   span {
+    font-family: 'Neo Sans Pro';
+    font-weight: 100;
     color: #f1a501;
     font-size: 32px;
   }
 }
 
 .decor {
-  margin-left: 18px;
+  margin-left: 14px;
   color: #3582b9;
+  font-size: 26px;
 }
 
 .three-section {
   position: inherit;
-  padding: 32px 16% 41px;
+  padding: 32px 16% 40px;
   background: #fff;
   text-align: center;
   clear: both;
   h2 {
     color: #7e7c95;
-    line-height: 32px;
+    line-height: 33px;
     text-align: center;
-    font-size: 30px;
-    margin-bottom: 50px;
-    padding: 1px 0 0 17px;
+    font-weight: 100;
+    font-size: 27px;
+    margin-bottom: 48px;
+    padding: 1px 0 0 19px;
   }
   span {
     color: #3582b9;
+    font-size: 26px;
   }
 }
 
@@ -383,6 +403,10 @@ h1, h2, h3, h4 {
   h5 {
     display: inline-block;
     width: 120px;
+    font-size: 12px;
+    color: #353061;
+    line-height: 17px;
+    font-weight: 400;
   }
 }
 
@@ -529,7 +553,7 @@ h1, h2, h3, h4 {
     height: 40px;
     border-radius: 7px;
     color: white;
-    margin: 40px 0 0 15px;
+    margin: 39px 0 0 15px;
     padding-left: 27px;
     font-size: 12px;
     cursor: pointer;
@@ -540,32 +564,34 @@ h1, h2, h3, h4 {
 }
 
 #green-two {
+  font-size: 12px;
   color: #61aa4d;
 }
-
 #blue-two {
+  font-size: 12px;
   color: #00a0e3;
 }
-
 #purple-two {
+  font-size: 12px;
   color: purple;
 }
-
 #orange-two {
+  font-size: 12px;
   color: orange;
 }
 
 .four-section {
   position: inherit;
   text-align: center;
-  padding: 32px 16% 40px;
+  padding: 35px 16% 40px;
   background: url("img/background/background-3.png") center no-repeat;
   background-size: cover;
   h2 {
-    font-size: 29px;
-    line-height: 33px;
-    padding-left: 14px;
-    margin-bottom: 22px;
+    font-size: 27px;
+    font-weight: 100;
+    line-height: 32px;
+    padding-left: 17px;
+    margin-bottom: 21px;
     color: #fff;
   }
   button {
@@ -587,16 +613,18 @@ h1, h2, h3, h4 {
 .five-section {
   position: inherit;
   text-align: center;
-  padding: 32px 16% 15px;
+  padding: 32px 16% 17px;
   h2 {
-    font-size: 29px;
+    font-size: 26px;
     color: #353061;
     line-height: 32px;
     margin-bottom: 45px;
-    padding-left: 15px;
+    padding-left: 16px;
+    font-weight: 100;
   }
   span {
     color: #3582b9;
+    font-size: 26px;
   }
   ul {
     display: block;
@@ -622,18 +650,19 @@ h1, h2, h3, h4 {
 .six-section {
   position: inherit;
   text-align: center;
-  padding: 32px 16% 40px;
+  padding: 34px 16% 40px;
   background: url("img/background/background-4.png") center no-repeat;
   background-size: cover;
   h2 {
-    font-size: 29px;
+    font-size: 27px;
     line-height: 33px;
-    padding-left: 14px;
-    margin-bottom: 22px;
+    padding-left: 17px;
+    margin-bottom: 20px;
     color: #fff;
+    font-weight: 100;
   }
   button {
-    display: block;
+    display: inline-block;
     margin-top: 22px;
     height: 40px;
     border-radius: 6px;
@@ -648,9 +677,30 @@ h1, h2, h3, h4 {
   }
 }
 
+.counter-two {
+  display: inline-block;
+  width: 196px;
+  vertical-align: top;
+  text-align: right;
+  margin-bottom: 4px;
+  h5 {
+    color: #f1a501;
+    font-size: 12px;
+    padding-top: 1px;
+    padding-right: 4px;
+  }
+  span {
+    font-family: 'Neo Sans Pro';
+    font-weight: 100;
+    color: #f1a501;
+    font-size: 32px;
+  }
+}
+
 .decor-two {
-  margin-right: 8px;
+  margin-left: 14px;
   color: #3582b9;
+  font-size: 26px;
 }
 
 .seven-section {
@@ -660,11 +710,11 @@ h1, h2, h3, h4 {
   background: url("img/background/background-5.png") center no-repeat;
   background-size: cover;
   h2 {
-    font-size: 29px;
+    font-size: 24px;
     color: #353061;
     line-height: 32px;
     margin-bottom: 43px;
-    padding-left: 15px;
+    padding-left: 18px;
   }
   ul {
     display: block;
@@ -692,10 +742,11 @@ h1, h2, h3, h4 {
     display: inline-block;
     padding: 5px 12px 0;
     font-size: 12px;
-    line-height: 18px;
+    line-height: 18px
   }
   span {
     color: #3582b9;
+    font-size: 26px;
   }
   button {
     margin-top: 25px;
@@ -718,23 +769,19 @@ h1, h2, h3, h4 {
 .eight-section {
   position: relative;
   box-sizing: border-box;
-  padding: 35px 12.4% 30px 18.4%;
-  max-width: 1400px;
+  padding: 35px 12.4% 21px 18.4%;
   text-align: center;
   background: #fff;
   h2 {
-    font-size: 29px;
+    font-size: 27px;
     color: #353061;
     line-height: 32px;
-    margin-bottom: 42px;
-    padding-left: 14px;
-  }
-  span {
-    color: #3582b9;
-    font-weight: 700;
+    font-weight: 100;
+    padding-right: 58px;
+    margin-bottom: 43px;
   }
   ul {
-    display: block;
+    display: inline-block;
     list-style: none;
     clear: both;
     padding-left: 15px;
@@ -742,7 +789,7 @@ h1, h2, h3, h4 {
   li {
     display: inline-block;
     width: 360px;
-    padding: 4px 0 12px;
+    padding: 4px 0 15px;
     text-align: left;
     vertical-align: top;
   }
@@ -761,16 +808,29 @@ h1, h2, h3, h4 {
   }
 }
 
+.decor-three {
+  font-size: 26px;
+  color: #3582b9;
+  font-weight: 200;
+}
+
+.decor-five {
+  font-size: 11px;
+  color: #3582b9;
+  font-weight: 700;
+}
+
 
 .nine-section {
   position: inherit;
   text-align: center;
-  padding: 32px 16% 40px;
+  padding: 34px 16% 38px;
   background: url("img/background/background-6.png") center no-repeat;
   background-size: cover;
   h2 {
-    font-size: 29px;
+    font-size: 27px;
     line-height: 33px;
+    font-weight: 100;
     padding-left: 14px;
     margin-bottom: 22px;
     color: #fff;
@@ -791,17 +851,26 @@ h1, h2, h3, h4 {
   }
 }
 
+.decor-four {
+  font-size: 25px;
+  color: #3582b9;
+  font-weight: 700;
+  margin-right: 7px;
+  margin-left: 15px;
+}
+
 .ten-section {
   position: inherit;
   text-align: center;
-  padding: 32px 16% 40px;
+  padding: 35px 16% 40px;
   background: url("img/background/background-7.png") center no-repeat;
   background-size: cover;
   h2 {
-    font-size: 29px;
+    font-size: 27px;
     color: #353061;
     line-height: 32px;
     margin-bottom: 43px;
+    font-weight: 100;
     padding-left: 15px;
   }
   ul {
@@ -853,6 +922,8 @@ h1, h2, h3, h4 {
   }
   span {
     color: #3582b9;
+    font-weight: 700;
+    font-size: 26px;
   }
   button {
     margin-top: 51px;
@@ -875,14 +946,15 @@ h1, h2, h3, h4 {
 .eleven-section {
   position: inherit;
   text-align: center;
-  padding: 32px 16% 28px;
+  padding: 33px 16% 28px;
   background: #fff;
   h2 {
-    font-size: 29px;
+    font-size: 27px;
     color: #353061;
+    font-weight: 100;
     line-height: 32px;
     margin-bottom: 43px;
-    padding-left: 15px;
+    padding-left: 19px;
   }
   h5 {
     font-size: 14px;
@@ -893,11 +965,14 @@ h1, h2, h3, h4 {
     padding-top: 9px;
   }
   span {
+    font-size: 26px;
+    font-weight: 700;
     color: #3582b9;
   }
 }
 
-#decor-three {
+#decor-six {
+  font-size: 12px;
   color: #3c434d;
   font-weight: 600;
 }
@@ -909,8 +984,8 @@ h1, h2, h3, h4 {
   p {
     display: inline-block;
     font-size: 12px;
-    line-height: 18px;
-    padding: 17px;
+    line-height: 20px;
+    padding: 12px 17px;
     width: 520px;
   }
 }
@@ -957,17 +1032,14 @@ h1, h2, h3, h4 {
   box-sizing: border-box;
   text-align: center;
   padding: 35px 18.4% 25px;
-  max-width: 1400px;
   background: #f9faf6;
   h2 {
-    font-size: 29px;
+    font-size: 27px;
+    font-weight: 100;
     color: #353061;
-    margin-bottom: 19px;
+    margin-bottom: 20px;
     line-height: 32px;
     padding-left: 15px;
-  }
-  span {
-    color: #3582b9;
   }
   ul {
     display: block;
@@ -997,13 +1069,18 @@ h1, h2, h3, h4 {
   }
 }
 
+.decor-seven {
+  font-size: 26px;
+  color: #3582b9;
+  font-weight: 700;
+}
+
 @media (max-width: 1279px) {
   .header,.one-section,.three-section {
     padding: 30px 2%;
   }
-  .carpet-choice-two {
-    padding-left: 0;
-  }
+  .carpet-choice {padding: 0;}
+  .carpet-choice-two {padding: 0;}
   .application-counter {
     padding: 0 100px 0 100px;
   }
@@ -1013,6 +1090,7 @@ h1, h2, h3, h4 {
     }
     li {
       width: 50%;
+      text-align: center;
     }
   }
   .ten-section {
@@ -1065,7 +1143,14 @@ h1, h2, h3, h4 {
     }
   }
   .carpet-choice-two {
-    padding-left: 0;
+    padding: 0;
+    display: inline-block;
+    text-align: center;
+    li {
+      width: 44%;
+      vertical-align: top;
+      margin: 10px;
+    }
   }
   .two-section {
     padding: 30px 2%;
@@ -1078,9 +1163,13 @@ h1, h2, h3, h4 {
       margin-bottom: 10px;
       padding-left: 0;
     }
-    input, button, label {
+    input, label {
       display: inline-block;
       width: 51%;
+    }
+    button {
+      display: inline-block;
+      width: 55%;
     }
   }
   .three-section {
@@ -1124,7 +1213,7 @@ h1, h2, h3, h4 {
       text-align: center;
       width: 31%;
       &:nth-child(-n+3):before {
-        margin-left: calc(47%);
+        margin-left: calc(45%);
       }
     }
   }
@@ -1167,9 +1256,13 @@ h1, h2, h3, h4 {
       margin-bottom: 10px;
       padding-left: 0;
     }
-    input, button, label {
+    input, label {
       display: inline-block;
       width: 51%;
+    }
+    button {
+      display: inline-block;
+      width: 55%;
     }
   }
   .seven-section {
@@ -1191,13 +1284,28 @@ h1, h2, h3, h4 {
     ul {
       padding-left: 0;
     }
+    p {
+      width: 150px;
+    }
   }
   .nine-section {
     padding: 30px 2%;
     h2 {
       margin-bottom: 10px;
       padding-left: 0;
+      font-size: 20px;
     }
+    span {
+      font-size: 22px;
+    }
+    button {
+      display: inline-block;
+      width: 55%;
+    }
+  }
+  .example-carpet {
+    width: 44%;
+    margin: 10px;
   }
   .ten-section {
     padding: 30px 2%;
@@ -1293,7 +1401,7 @@ h1, h2, h3, h4 {
     }
   }
   .one-section {
-    padding: 30px 1%;
+    padding: 30px 1% 10px;
     h2 {
       padding-left: 0;
       font-size: 20px;
@@ -1304,18 +1412,25 @@ h1, h2, h3, h4 {
     }
   }
   .carpet-choice {
-    padding-left: 0;
+    display: block;
+    text-align: center;
+    padding: 0;
   }
   .example-carpet {
-    margin-bottom: 15px;
+    margin: 0 0 10px 0;
+    display: inline-block;
+    width: auto;
+    padding: 0 20px;
   }
   .carpet-choice-two {
-    padding: 30px 0;
+    padding: 30px 0 10px;
     li {
       margin-bottom: 15px;
+      display: block;
+      width: auto;
     }
     button {
-      width: 180px;
+      width: 195px;
     }
   }
   .two-section {
@@ -1351,6 +1466,7 @@ h1, h2, h3, h4 {
     p {
       display: block;
       width: auto;
+      text-align: center;
       padding: 10px 20px;
     }
     button {
@@ -1360,6 +1476,7 @@ h1, h2, h3, h4 {
       padding: 0 10px;
     }
   }
+  .counter-two{text-align: center;}
   .three-section {
     padding: 30px 1%;
     h2 {
@@ -1415,6 +1532,12 @@ h1, h2, h3, h4 {
     padding: 0 10px;
     margin: 0;
     width: 80%;
+  }
+  .one-before:before,.two-before:before,
+  .three-before:before,.four-before:before,
+  .five-before:before,.six-before:before,
+  .seven-before:before {
+    display: none;
   }
   .four-section {
     padding: 30px 1%;
@@ -1508,6 +1631,7 @@ h1, h2, h3, h4 {
     li {
       display: block;
       width: auto;
+      text-align: center;
     }
     p {
       margin-left: 10px;
